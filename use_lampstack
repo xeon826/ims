@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+
+exec /bin/bash --rcfile "/home/dan/lampstack-7.1.20-0/.bashrc"

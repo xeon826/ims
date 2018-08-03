@@ -1,0 +1,10 @@
+
+PATH="/home/dan/lampstack-7.1.20-0/frameworks/laravel/app/Console:/home/dan/lampstack-7.1.20-0/frameworks/cakephp/bin:/home/dan/lampstack-7.1.20-0/frameworks/codeigniter/bin:/home/dan/lampstack-7.1.20-0/frameworks/symfony/bin:/home/dan/lampstack-7.1.20-0/frameworks/zendframework/app/Console:/home/dan/lampstack-7.1.20-0/git/bin:/home/dan/lampstack-7.1.20-0/varnish/bin:/home/dan/lampstack-7.1.20-0/sqlite/bin:/home/dan/lampstack-7.1.20-0/php/bin:/home/dan/lampstack-7.1.20-0/mysql/bin:/home/dan/lampstack-7.1.20-0/apache2/bin:/home/dan/lampstack-7.1.20-0/common/bin:$PATH"
+BITNAMI_ROOT="/home/dan/lampstack-7.1.20-0"
+export BITNAMI_ROOT
+
+
+if [ "$BASH" != "" -a -s "/home/dan/lampstack-7.1.20-0/git/scripts/git-completion.bash" ]; then
+    . "/home/dan/lampstack-7.1.20-0/git/scripts/git-completion.bash"
+fi
+GIT_PS1_SHOWDIRTYSTATE=true
